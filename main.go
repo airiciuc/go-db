@@ -16,7 +16,7 @@ type Post struct {
 	Body  string `bson:"body,omitempty"`
 }
 
-func main() {
+func mainOld() {
 
 	/*
 	   Connect to my cluster
